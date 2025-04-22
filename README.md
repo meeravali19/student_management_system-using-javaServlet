@@ -39,6 +39,21 @@ A fully functional **web-based student management portal** built with **Java Ser
 
 ### 1. Clone the Repo
 
-```bash
-git clone https://github.com/meeravali19/student_management_system-using-javaServlet.git
+  ```bash
+  git clone https://github.com/meeravali19/student_management_system-using-javaServlet.git
+  ```
+
+### 2. Setup MySQL
+**Create a database:**
+  ```sh
+  CREATE DATABASE student_db;
+  ```
+Import the provided SQL script (database.sql) if available.
+**Update your DB credentials in the code:**
+```sh
+DB_URL = jdbc:mysql://localhost:3306/student_db
+DB_USER = your_username
+DB_PASSWORD = your_password
 ```
+
+
