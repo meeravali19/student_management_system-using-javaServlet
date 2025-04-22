@@ -12,17 +12,6 @@ A fully functional **web-based student management portal** built with **Java Ser
 ✅ **Grade Management** – View and update student grades  
 ✅ **Responsive UI** – Clean and user-friendly design  
 
-
-## 🖼️ Screenshots
-
-> _📌 You can update these with actual images from your project_
-
-| Login Page | Dashboard | Student Records |
-|------------|-----------|-----------------|
-| ![Login](assets/login.png) | ![Dashboard](assets/dashboard.png) | ![Records](assets/records.png) |
-
----
-
 ## ⚙️ Tech Stack
 
 | Layer        | Technologies             |
@@ -33,22 +22,21 @@ A fully functional **web-based student management portal** built with **Java Ser
 | 🌐 Server     | Apache Tomcat            |
 | 🛠 IDE        | Eclipse / IntelliJ IDEA  |
 
----
+
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repo
-
-  ```bash
-  git clone https://github.com/meeravali19/student_management_system-using-javaServlet.git
-  ```
+### 1. Clone the Repo  
+   ```sh
+     git clone https://github.com/meeravali19/student_management_system-using-javaServlet.git
+   ```
 
 ### 2. Setup MySQL
-**Create a database:**
-  ```sh
+   **Create a database:**
+   ```
   CREATE DATABASE student_db;
-  ```
-Import the provided SQL script (database.sql) if available.
+   ```
+Import the provided SQL script (database.sql) if available.  
 **Update your DB credentials in the code:**
 ```sh
 DB_URL = jdbc:mysql://localhost:3306/student_db
@@ -56,4 +44,30 @@ DB_USER = your_username
 DB_PASSWORD = your_password
 ```
 
+### 3. Deploy the Project
+Open the project in Eclipse or IntelliJ.  
+Add the project to Apache Tomcat Server.  
+**Run the server and go to:**  
+```👉 http://localhost:8080/student_management_system```
 
+
+## 🧠 Folder Structure
+
+```
+student_management_system/
+├── src/
+│   ├── model/
+│   ├── dao/
+│   └── servlet/
+├── WebContent/
+│   ├── jsp/
+│   ├── css/
+│   ├── js/
+│   └── WEB-INF/
+├── lib/
+├── .classpath
+├── .project
+└── README.md
+```
+
+## 🤝 Contributing
