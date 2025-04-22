@@ -71,3 +71,8 @@ student_management_system/
 ```
 
 ## 🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn and grow!  
+Feel free to fork this repo and submit a pull request.
+
+## 📜 License
+This project is licensed under the MIT License.
